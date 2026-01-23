@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Typography, Avatar } from '@mui/material'
+import { Box, Container, Grid, Typography, Avatar } from "@mui/material";
 
 export default function Hero() {
   return (
@@ -12,19 +12,21 @@ export default function Hero() {
               IT Entusiast
             </Typography>
             <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }}>
-              I am a passionate IT enthusiast with a strong interest in technology and innovation. I am currently pursuing personal goals in Software Development and Cybersecurity. 
+              I am a passionate IT enthusiast with a strong interest in
+              technology and innovation. I am currently pursuing personal goals
+              in Software Development and Cybersecurity.
             </Typography>
           </Grid>
           <Grid item xs={12} md={4} order={{ xs: 1, md: 2 }}>
             <Box
               sx={{
-                display: 'flex',
-                justifyContent: 'center',
+                display: "flex",
+                justifyContent: "center",
                 mb: { xs: 2, md: 0 },
               }}
             >
               <Avatar
-                src="/avatar.jpg"
+                src="/portrait_1024.png"
                 alt="John portrait"
                 sx={{
                   width: { xs: 170, md: 243 },
@@ -36,5 +38,5 @@ export default function Hero() {
         </Grid>
       </Container>
     </Box>
-  )
+  );
 }
