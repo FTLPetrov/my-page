@@ -1,4 +1,5 @@
 import { Box, Container, Grid, Typography, Avatar } from "@mui/material";
+import portrait_1024 from "../../../../public/portrait_1024.png";
 
 export default function Hero() {
   return (
@@ -9,7 +10,7 @@ export default function Hero() {
             <Typography variant="h1" gutterBottom>
               Hi, I am Peter,
               <br />
-              IT Entusiast
+              IT Enthusiast
             </Typography>
             <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }}>
               I am a passionate IT enthusiast with a strong interest in
@@ -26,8 +27,8 @@ export default function Hero() {
               }}
             >
               <Avatar
-                src={import.meta.env.BASE_URL + "portrait_1024.png"}
-                alt="John portrait"
+                src={portrait_1024}
+                alt="Peter portrait"
                 sx={{
                   width: { xs: 170, md: 243 },
                   height: { xs: 170, md: 243 },
