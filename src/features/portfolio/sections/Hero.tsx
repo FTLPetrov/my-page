@@ -26,7 +26,7 @@ export default function Hero() {
               }}
             >
               <Avatar
-                src="/portrait_1024.png"
+                src={import.meta.env.BASE_URL + "portrait_1024.png"}
                 alt="John portrait"
                 sx={{
                   width: { xs: 170, md: 243 },
